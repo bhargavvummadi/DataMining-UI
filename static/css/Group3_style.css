@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+.carousel-caption {
+    transform: translateY(-50%);
+    top: 50%;
+    bottom: initial;
+}
+.bg-image{
+    background-color:#2193b0;
+    background-image: -webkit-linear-gradient(45deg,#2193b0 0%, #6dd5ed 100%);
+
+}
+
+.report-text{
+    text-align: center;
+    font-size:30px
+}
+
+.bg-nav{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2193b0 0%, #6dd5ed 100%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2193b0 0%, #6dd5ed 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mt-300{
+    margin-top: 300px;
+}
+.carousel-item .item {
+  height: 100px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100px;
+}
+
+ #loading,#visualloading {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
